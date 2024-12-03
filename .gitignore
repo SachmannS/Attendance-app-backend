@@ -1,0 +1,84 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*db.sqlite3
+instance/
+.media/
+staticfiles/
+
+# If you are using migrations
+*/migrations/*
+
+# But keep __init__.py files in migrations
+!*/migrations/__init__.py
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# Heroku
+*.mo
+*.pot
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Node.js (if using frontend in Django)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VSCode extensions
+*.code-workspace
